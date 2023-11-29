@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/totalCaloriesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Total Calories: 0.0"
+        android:textColor="#FF0000"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/totalCaloriesTextView"
+        android:layout_marginTop="16dp"
+        android:dividerHeight="0.5dp"
+        android:layout_above="@+id/btnAdd" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Add Entry"
+        android:background="@drawable/rounded_button"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>

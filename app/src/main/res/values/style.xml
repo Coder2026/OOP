@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+    </style>
+
+    <!-- Theme for Tracker_Calories -->
+    <style name="Theme.Tracker_Calories" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme attributes here -->
+        <item name="colorPrimary">@color/trackerPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/trackerPrimaryDarkColor</item>
+        <item name="colorAccent">@color/trackerAccentColor</item>
+        <item name="android:textColorPrimary">@color/trackerTextColorPrimary</item>
+        <item name="android:textColorSecondary">@color/trackerTextColorSecondary</item>
+    </style>
+
+
+</resources>
